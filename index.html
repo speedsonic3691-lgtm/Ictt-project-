@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Portfolio of Zayan Shibly, a student and aspiring web developer."
+    />
+    <title>Zayan Shibly — Portfolio</title>
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="site-header" id="site-header">
+      <div class="nav-inner">
+        <a class="logo" href="#home">Zayan Shibly</a>
+
+        <button
+          class="nav-toggle"
+          id="nav-toggle"
+          type="button"
+          aria-expanded="false"
+          aria-controls="site-nav"
+        >
+          <span class="nav-toggle-bar" aria-hidden="true"></span>
+          <span class="visually-hidden">Menu</span>
+        </button>
+
+        <nav class="site-nav" id="site-nav" aria-label="Primary">
+          <ul class="nav-list">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main">
+      <section class="hero" id="home" aria-labelledby="hero-heading">
+        <div class="hero-atmosphere" aria-hidden="true">
+          <div class="hero-gradient"></div>
+          <div class="hero-grid"></div>
+          <div class="hero-noise"></div>
+        </div>
+
+        <div class="hero-content">
+          <p class="eyebrow">Portfolio</p>
+          <h1 id="hero-heading">Hi, I'm Zayan Shibly.</h1>
+          <p class="hero-subtitle">Student • Aspiring Web Developer</p>
+          <p class="hero-intro">
+            Building my skills, experimenting with technology, and creating
+            projects that turn ideas into reality.
+          </p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#projects">View Projects</a>
+            <a class="btn btn-secondary" href="#contact">Contact Me</a>
+          </div>
+        </div>
+
+        <a class="scroll-indicator" href="#about">
+          <span class="visually-hidden">Scroll to About</span>
+          <span class="scroll-line" aria-hidden="true"></span>
+        </a>
+      </section>
+
+      <section class="section about" id="about" aria-labelledby="about-heading">
+        <div class="container">
+          <header class="section-header reveal">
+            <p class="eyebrow">Introduction</p>
+            <h2 id="about-heading">About Me</h2>
+          </header>
+
+          <div class="about-grid">
+            <div class="about-copy reveal">
+              <p>
+                I’m a student with a growing interest in technology and the web.
+                I enjoy learning how sites are structured, how they look, and
+                how a little JavaScript can make a page feel alive.
+              </p>
+              <p>
+                Right now I’m focused on the fundamentals: HTML, CSS, and
+                JavaScript. I learn by building small projects, trying new
+                layouts, and refining the details until something feels clear
+                and intentional.
+              </p>
+              <p>
+                This portfolio is a place to share what I’m working on as I
+                continue to grow as a developer.
+              </p>
+            </div>
+
+            <aside class="profile-card reveal" aria-label="Profile details">
+              <dl>
+                <div>
+                  <dt>Name</dt>
+                  <dd>Zayan Shibly</dd>
+                </div>
+                <div>
+                  <dt>Role</dt>
+                  <dd>Student</dd>
+                </div>
+                <div>
+                  <dt>Focus</dt>
+                  <dd>Web Development</dd>
+                </div>
+                <div>
+                  <dt>Technologies</dt>
+                  <dd>HTML, CSS, JavaScript</dd>
+                </div>
+              </dl>
+            </aside>
+          </div>
+        </div>
+      </section>
+
+      <section class="section skills" id="skills" aria-labelledby="skills-heading">
+        <div class="container">
+          <header class="section-header reveal">
+            <p class="eyebrow">Fundamentals</p>
+            <h2 id="skills-heading">Skills</h2>
+          </header>
+
+          <ul class="skill-grid">
+            <li class="skill-card reveal">
+              <div class="skill-icon" aria-hidden="true">
+                <svg viewBox="0 0 48 48" fill="none">
+                  <path
+                    d="M10 8h28l-2.5 32L24 44l-11.5-4L10 8z"
+                    stroke="currentColor"
+                    stroke-width="1.6"
+                  />
+                  <path
+                    d="M18 20h12M17 28h14"
+                    stroke="currentColor"
+                    stroke-width="1.6"
+                    stroke-linecap="round"
+                  />
+                </svg>
+              </div>
+              <h3>HTML</h3>
+              <p>Building structured and semantic web pages.</p>
+            </li>
+            <li class="skill-card reveal">
+              <div class="skill-icon" aria-hidden="true">
+                <svg viewBox="0 0 48 48" fill="none">
+                  <circle
+                    cx="24"
+                    cy="24"
+                    r="14"
+                    stroke="currentColor"
+                    stroke-width="1.6"
+                  />
+                  <path
+                    d="M10 24h28M24 10c4 4.5 6 9 6 14s-2 9.5-6 14c-4-4.5-6-9-6-14s2-9.5 6-14z"
+                    stroke="currentColor"
+                    stroke-width="1.6"
+                  />
+                </svg>
+              </div>
+              <h3>CSS</h3>
+              <p>Creating responsive layouts and modern visual designs.</p>
+            </li>
+            <li class="skill-card reveal">
+              <div class="skill-icon" aria-hidden="true">
+                <svg viewBox="0 0 48 48" fill="none">
+                  <rect
+                    x="10"
+                    y="10"
+                    width="28"
+                    height="28"
+                    rx="4"
+                    stroke="currentColor"
+                    stroke-width="1.6"
+                  />
+                  <path
+                    d="M18 30V18l8 12V18"
+                    stroke="currentColor"
+                    stroke-width="1.6"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </div>
+              <h3>JavaScript</h3>
+              <p>Adding interaction and dynamic functionality to websites.</p>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section
+        class="section projects"
+        id="projects"
+        aria-labelledby="projects-heading"
+      >
+        <div class="container">
+          <header class="section-header reveal">
+            <p class="eyebrow">Selected work</p>
+            <h2 id="projects-heading">Projects</h2>
+            <p class="section-lead">
+              Example projects for this portfolio. Replace the entries in
+              <code>script.js</code> when you add real work.
+            </p>
+          </header>
+
+          <div class="project-grid" id="project-grid"></div>
+        </div>
+      </section>
+
+      <section
+        class="section contact"
+        id="contact"
+        aria-labelledby="contact-heading"
+      >
+        <div class="container">
+          <header class="section-header reveal">
+            <p class="eyebrow">Contact</p>
+            <h2 id="contact-heading">Let's Connect</h2>
+            <p class="section-lead">
+              Have a project, idea, or opportunity? I'd be happy to hear from
+              you.
+            </p>
+          </header>
+
+          <div class="contact-layout">
+            <ul class="contact-links reveal">
+              <li>
+                <span>Email</span>
+                <a href="mailto:your.email@example.com">your.email@example.com</a>
+                <small>Placeholder — replace with your address</small>
+              </li>
+              <li>
+                <span>GitHub</span>
+                <a href="https://github.com/your-username" rel="noopener noreferrer"
+                  >github.com/your-username</a
+                >
+                <small>Placeholder — replace with your profile</small>
+              </li>
+              <li>
+                <span>LinkedIn</span>
+                <a
+                  href="https://www.linkedin.com/in/your-username"
+                  rel="noopener noreferrer"
+                  >linkedin.com/in/your-username</a
+                >
+                <small>Placeholder — replace with your profile</small>
+              </li>
+            </ul>
+
+            <form class="contact-form reveal" id="contact-form" novalidate>
+              <p class="form-note">
+                This form stays on your computer. It does not send messages to a
+                server.
+              </p>
+              <label>
+                Name
+                <input type="text" name="name" id="contact-name" autocomplete="name" required />
+              </label>
+              <label>
+                Email
+                <input
+                  type="email"
+                  name="email"
+                  id="contact-email"
+                  autocomplete="email"
+                  required
+                />
+              </label>
+              <label>
+                Message
+                <textarea name="message" id="contact-message" rows="5" required></textarea>
+              </label>
+              <button class="btn btn-primary" type="submit">Send message</button>
+              <p class="form-status" id="form-status" role="status" aria-live="polite"></p>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <p>© 2026 Zayan Shibly. All rights reserved.</p>
+        <ul class="footer-links">
+          <li>
+            <a href="https://github.com/your-username" rel="noopener noreferrer">GitHub</a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/your-username" rel="noopener noreferrer"
+              >LinkedIn</a
+            >
+          </li>
+          <li>
+            <a href="mailto:your.email@example.com">Email</a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
